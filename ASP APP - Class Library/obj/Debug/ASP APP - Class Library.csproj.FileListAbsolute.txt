@@ -3,3 +3,14 @@ C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\
 C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.csprojResolveAssemblyReference.cache
 C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.dll
 C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.pdb
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.csprojResolveAssemblyReference.cache
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.dll
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.pdb
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\ASP APP - Class Library.dll.config
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\ASP APP - Class Library.dll
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\ASP APP - Class Library.pdb
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\EntityFramework.dll
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\Oracle.DataAccess.EntityFramework.dll
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\EntityFramework.xml
+C:\Users\Tim Seuren\Documents\GITHUB SE2\SE2-ASP-Project\ASP APP - Class Library\bin\Debug\EntityFramework.SqlServer.xml

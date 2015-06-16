@@ -17,6 +17,7 @@ namespace ASP_APP___Class_Library.Classes
         private static List<Pokémon> pokémons;
         private static List<PokémonType> types;
         private static List<Gebruiker> gebruikers;
+        private static List<PokémonAbility> pokémonAbilities;
         private static Databasemanager database;
         #endregion
 
@@ -37,6 +38,12 @@ namespace ASP_APP___Class_Library.Classes
         {
             get { return gebruikers; }
             set { gebruikers = value; }
+        }
+
+        public static List<PokémonAbility> PokémonAbilities
+        {
+            get { return pokémonAbilities; }
+            set { pokémonAbilities = value; }
         }
 
         public static Databasemanager Database
@@ -64,7 +71,7 @@ namespace ASP_APP___Class_Library.Classes
             pokémons = GetPokémons();
             //types = GetTypes();
             gebruikers = GetGebruikers();
-            abilities = GetAbilities();
+            pokémonAbilities = GetAbilities();
         }
         #endregion
 
@@ -94,7 +101,13 @@ namespace ASP_APP___Class_Library.Classes
             {
                 if(p.Naam == pokémonnaam)
                 {
-                    foreach()
+                    foreach(PokémonAbility pa in pokémonAbilities)
+                    {
+                        if(pa.Naam == abilitynaam)
+                        {
+                            p.PokémonAbilities.Add(pa);
+                        }
+                    }
                 }
             }
         }
