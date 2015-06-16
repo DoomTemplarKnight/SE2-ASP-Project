@@ -29,5 +29,10 @@ namespace ASP_APP___Class_Library.Classes
         {
             return new Gebruiker(Convert.ToInt32(r["ID"]), r["GEBRUIKERSNAAM"].ToString(), r["WACHTWOORD"].ToString(), r["EMAILADRES"].ToString(), r["FUNCTIE"].ToString());
         }
+
+        public static PokémonAbility ToAbility(DataRow r)
+        {
+            return new PokémonAbility(r["NAAM"].ToString(), r["BESCHRIJVING"].ToString(), r["EFFECT"].ToString());
+        }
     }
 }

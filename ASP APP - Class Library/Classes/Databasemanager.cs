@@ -280,6 +280,21 @@ namespace ASP_APP___Class_Library
 
         }
 
+        public List<PokémonAbility> SelectAbilities()
+        {
+            DataTable data = SelectAllColumns("ABILITY");
+
+            List<PokémonAbility> pokémonAbilities = new List<PokémonAbility>();
+
+            foreach (DataRow r in data.Rows)
+            {
+                pokémonAbilities.Add(DRConverter.ToAbility(r));
+            }
+
+            return pokémonAbilities;
+
+        }
+
         public List<Gebruiker> SelectGebruikers()
         {
             DataTable data = SelectAllColumns("GEBRUIKER");

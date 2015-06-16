@@ -27,6 +27,7 @@ namespace ASP_APP___Class_Library
         private string evolutielevel;
 
         private List<Classes.PokémonAanval> pokémonAanvallen;
+        private List<Classes.PokémonAbility> pokémonAbilities;
 
         public string Naam
         {
@@ -139,6 +140,12 @@ namespace ASP_APP___Class_Library
             set { pokémonAanvallen = value; }
         }
 
+        public List<Classes.PokémonAbility> PokémonAbilities
+        {
+            get { return pokémonAbilities; }
+            set { pokémonAbilities = value; }
+        }
+
         public Pokémon(string naam, string preevolutienaam, int pokédexnr, Classes.PokémonType primairtype, Classes.PokémonType secondairtype,
             string classificatie, double hoogte, double gewicht, int capturerate, int baseeggsteps, int baseatk, int basehp, int basedef,
             int basespdef, int basespeed, int basespatk, string evolutiemethode, string evolutielevel)
@@ -160,6 +167,8 @@ namespace ASP_APP___Class_Library
             this.basespeed = basespeed;
             this.evolutiemethode = evolutiemethode;
             this.evolutielevel = evolutielevel;
+
+            pokémonAbilities = new List<Classes.PokémonAbility>();
         }
     }
 }

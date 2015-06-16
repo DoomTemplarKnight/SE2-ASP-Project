@@ -64,7 +64,9 @@ namespace ASP_APP___Class_Library.Classes
             pokémons = GetPokémons();
             //types = GetTypes();
             gebruikers = GetGebruikers();
+            abilities = GetAbilities();
         }
+        #endregion
 
         public static List<PokémonType> GetTypes()
         {
@@ -80,6 +82,22 @@ namespace ASP_APP___Class_Library.Classes
         {
             return database.SelectGebruikers();
         }
-        #endregion
+
+        public static List<PokémonAbility> GetAbilities()
+        {
+            return database.SelectAbilities();
+        }
+
+        public static void KoppelPokémonAbility(string pokémonnaam, string abilitynaam)
+        {
+            foreach(Pokémon p in pokémons)
+            {
+                if(p.Naam == pokémonnaam)
+                {
+                    foreach()
+                }
+            }
+        }
+        
     }
 }
