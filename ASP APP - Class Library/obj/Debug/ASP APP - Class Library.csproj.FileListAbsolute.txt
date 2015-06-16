@@ -1,0 +1,5 @@
+C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\bin\Debug\ASP APP - Class Library.dll
+C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\bin\Debug\ASP APP - Class Library.pdb
+C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.csprojResolveAssemblyReference.cache
+C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.dll
+C:\Users\Tim Seuren\Documents\Visual Studio 2013\Projects\ASP APP - Basic Files\ASP APP - Class Library\obj\Debug\ASP APP - Class Library.pdb
